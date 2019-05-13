@@ -1,0 +1,91 @@
+/*----------------------------------
+Reset Style
+----------------------------------*/
+dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, figure, input, textarea, p, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+address, caption, cite, code, dfn, em, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+fieldset, img {
+  border: 0;
+  vertical-align: top;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+q:before, q:after {
+  content: " ";
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+a {
+  color: $c_base;
+  text-decoration: none;
+}
+a:link {
+  color: $c_base;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $c_base;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $c_base;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  color: $c_base;
+  text-decoration: none;
+}
+
+a:active, a:focus {
+  outline: none;
+}
+
+li img,
+dt img,
+dd img {
+  vertical-align: top;
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
