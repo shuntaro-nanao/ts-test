@@ -12,6 +12,7 @@
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
+    "@types/jquery": "^3.3.29",
     "babel-loader": "^8.0.5",
     "browser-sync": "^2.12.5",
     "connect-ssi": "^1.1.1",
