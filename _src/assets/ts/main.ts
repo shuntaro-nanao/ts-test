@@ -1,5 +1,7 @@
 $(function(){
 
+  const a: null = null;
+
   const message:string = 'hoge';
   if(message){
     console.log(message);
