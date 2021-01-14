@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "webpack --mode=production",
-    "start": "webpack-cli serve --mode=development",
+    "start": "webpack --watch --mode=development & webpack-cli serve",
     "lint": "eslint --fix '_src/**/*.{js,ts}'",
     "lint-fix": "eslint --fix './_src/**/*.{js,ts}' && prettier --write './_src/**/*.{js,ts}'"
   },
